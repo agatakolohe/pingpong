@@ -5,6 +5,7 @@
 #### By Agata Kolodziej, Patric Osten, Taylor Delph
 
 ## Description
+
 Ping-pong is a classic programming exercise that utilizes branching and looping. Here's how it works:
 A user enters a number and the application returns all numbers from 1 to the user input with the following changes:
 All numbers divisible by 3 are replaced by "ping".
@@ -16,13 +17,12 @@ If the user enters 15, the program will return: 1, 2, "ping", 4, "pong", "ping",
 
 ### Describe: PingPong
 
-| Test | Expect |
-| ---- | ------ |
-| It will return a range of numbers from 1 to the user's inputted number | PingPong(4).toEqual([1,2,3,4]) |
-| It will replace all numbers divisible by 3 with "ping" | PingPong(4).toEqual([1,2,"ping",4]) |
-| It will replace all numbers divisible by 5 with "pong" | PingPong(5).toEqual([1,2,"ping","pong"]) |
-| It will replace all numbers divisible by 3 and 5 with "ping-pong" | PingPong(15).toEqual([1,2,"ping",4,"pong", 6,7,8,"ping","pong",11,"ping",13,14,"ping-pong"]) |
-
+| Test                                                                   | Expect                                                                                       |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| It will return a range of numbers from 1 to the user's inputted number | PingPong(4).toEqual([1,2,3,4])                                                               |
+| It will replace all numbers divisible by 3 with "ping"                 | PingPong(4).toEqual([1,2,"ping",4])                                                          |
+| It will replace all numbers divisible by 5 with "pong"                 | PingPong(5).toEqual([1,2,"ping","pong"])                                                     |
+| It will replace all numbers divisible by 3 and 5 with "ping-pong"      | PingPong(15).toEqual([1,2,"ping",4,"pong", 6,7,8,"ping","pong",11,"ping",13,14,"ping-pong"]) |
 
 ## Setup/Installation Requirements
 
@@ -38,6 +38,7 @@ If the user enters 15, the program will return: 1, 2, "ping", 4, "pong", "ping",
 - Click on the green "Code" button and copy the repository URL
 - Open your terminal and use the command `git clone https://github.com/agatakolohe/pingpong.git` into the directory you would like to clone the repository
 - Open in text editor to view code and make changes
+- Open terminal `dotnet run`
 
 ## Known Bugs
 
