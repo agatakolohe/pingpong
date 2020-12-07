@@ -9,8 +9,6 @@ public class PingPong
     string stringNumber = Console.ReadLine();
     int userNumber = int.Parse(stringNumber);
 
-    //List<int> pingPongList = new List<int> {};
-
     for (int index = 1; index <= userNumber; index++)
     {
       if (index % 15 == 0)
