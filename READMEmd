@@ -1,16 +1,20 @@
-# Application Name
+# Ping-Pong
 
-#### Description of application, 12-07-2020
+#### Looping Practice with C# for Epicodus, 12-07-2020
 
 #### By Agata Kolodziej, Patric Osten, Taylor Delph
 
 ## Description
-
-Purpose usage, detailed explanation what is does and any other information you want users and other developers to have
+Ping-pong is a classic programming exercise that utilizes branching and looping. Here's how it works:
+A user enters a number and the application returns all numbers from 1 to the user input with the following changes:
+All numbers divisible by 3 are replaced by "ping".
+All numbers divisible by 5 are replaced by "pong".
+All numbers divisible by both 3 and 5 are replaced by "ping-pong".
+If the user enters 15, the program will return: 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"
 
 ## Specifications
 
-### Describe: functionName()
+### Describe: PingPong
 
 | Test | Expect |
 | ---- | ------ |
@@ -26,17 +30,13 @@ Purpose usage, detailed explanation what is does and any other information you w
 
 1. Internet browser
 2. A code editor such as VSCode to view and edit the code
-
-##### View Online
-
-- To view in browser click the GH-Pages link: [Name of App](URL)
-- what to do when open online
+3. Access to your terminal
 
 ##### Open Locally
 
-- Click on the link to my repository: [My Repository](URL)
+- Click on the link to my repository: [My Respository](https://github.com/agatakolohe/pingpong.git)
 - Click on the green "Code" button and copy the repository URL
-- Open your terminal and use the command `git clone REPO URL HERE` into the directory you would like to clone the repository
+- Open your terminal and use the command `git clone https://github.com/agatakolohe/pingpong.git` into the directory you would like to clone the repository
 - Open in text editor to view code and make changes
 
 ## Known Bugs
@@ -45,17 +45,11 @@ No known bugs present.
 
 ## Support and Contact Details
 
-If any errors or bugs occur use Chrome DevTools or please email me, <agatakolohe@gmail.com>
+If any errors or bugs occur google the error messages or please email me, <agatakolohe@gmail.com>
 
 ## Technologies Used
 
-CHANGE IF NECESSARY
-
-- HTML
-- CSS
-- Bootstrap
-- JavaScript
-- jQuery
+- C#
 - VS Code
 - GitHub
 
